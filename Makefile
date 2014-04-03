@@ -1,6 +1,6 @@
 all: kmmp
 
-kmmp: *.cpp
+kmmp: src/*.cpp
 	g++ -o $@ $^
 
 clean:
